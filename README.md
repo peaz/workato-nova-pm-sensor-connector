@@ -26,7 +26,7 @@ Steps to build an extension:
 1. Add a new directory called `ext` under Workato agent install directory.
 2. Copy the extension JAR file to `ext` directory.
   - opa-extensions-sensor-0.1.jar
-  - jSerialComm-2.7.0.jar
+  - jSerialComm-2.7.0.jar [link](https://gitlab.com/peaz/workato-nova-pm-sensor-connector/-/blob/main/libs/jSerialComm-2.7.0.jar)
 3. Update the `config/config.yml` to add the `ext` file to class path.
 
 ```yml
@@ -45,8 +45,8 @@ Steps to build an extension:
 
 ## Using the extension in Recipe
 
-In order to use the extension in a recipe, we need a custom adapter in Workato. Sample adapter for the extension 
-can be found [here](https://github.com/workato/connector_sdk/blob/master/custom_connectors/basic_auth/onprem_security.rb).
+In order to use the extension in a recipe, we need a custom adapter in Workato. The custom SDK for the extension 
+can be found [here](https://gitlab.com/peaz/workato-nova-pm-sensor-connector/-/blob/main/custom-sdk/Nova-PM-Sensor-Connector.rb).
 
 ```ruby
 {
