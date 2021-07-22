@@ -25,8 +25,8 @@ Steps to build an extension:
 
 1. Add a new directory called `ext` under Workato agent install directory.
 2. Copy the extension JAR file to `ext` directory.
-  - opa-extensions-sensor-0.1.jar
-  - jSerialComm-2.7.0.jar [link](https://gitlab.com/peaz/workato-nova-pm-sensor-connector/-/blob/main/libs/jSerialComm-2.7.0.jar)
+  - opa-extensions-sensor-0.1.jar [pre-built in build/libs](https://gitlab.com/peaz/workato-nova-pm-sensor-connector/-/blob/main/build/libs/workato-nova-pm-sensor-connector-0.1.jar)
+  - jSerialComm-2.7.0.jar [in libs](https://gitlab.com/peaz/workato-nova-pm-sensor-connector/-/blob/main/libs/jSerialComm-2.7.0.jar)
 3. Update the `config/config.yml` to add the `ext` file to class path.
 
 ```yml
