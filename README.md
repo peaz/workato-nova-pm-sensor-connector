@@ -38,7 +38,7 @@ Steps to build an extension:
 
 ```yml
     extensions:
-      security:
+      novapmsensor:
         controllerClass: com.mycompany.onprem.NovaPMSensorExtension
         serialPortDevice: /dev/ttyUSB0
 ```
